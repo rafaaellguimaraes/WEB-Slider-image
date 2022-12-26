@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Slider</title>
+</head>
+<body>
+    <header>
+        <div class="header"></div>
+        <div class="slider">
+            <!--Setinhas de controle-->
+            <div class="slider--controls">
+                <button class="slider--control" onclick="goPrev()">Back</button>
+                <button class="slider--control" onclick="goNext()">Next</button>
+            </div>
+            <!--A largura do slider--width tem que ser dinamica-->
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url('images/01.jpg');"></div>
+                <div class="slider--item" style="background-image: url('images/02.jpg');"></div>
+                <div class="slider--item" style="background-image: url('images/03.jpg');"></div>
+                <div class="slider--item" style="background-image: url('images/04.jpg');"></div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h1>Resto do site</h1>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
